@@ -2,10 +2,10 @@ import websocket
 import json
 import requests
 import time
-from collections import deque
+from collections import os
 
-BOT_TOKEN = 8793457761:AAFrzt-Pd7PSLFoocin9xtOHkvAT3KZSF_E
-CHAT_ID = 6757053692
+BOT_TOKEN = os.getenv(8793457761:AAFrzt-Pd7PSLFoocin9xtOHkvAT3KZSF_E)
+CHAT_ID = os.getenv(6757053692)
 
 WS_URL = "wss://stream.binance.com:9443/ws/btcusdt@kline_1m"
 
